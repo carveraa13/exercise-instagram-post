@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+}
+.post{
+    background-color: white;
+    width: 450px;
+    height: 615px;
+    margin: auto;
+    border: groove black 1px;
+}
+img{
+    width:450px;
+    height:330px;
+}
+.post-header{
+    display: flex;
+    padding:10px;
+}
+#icon{
+    width: 10%;
+}
+#icon .fa, .option .fa{
+    margin-top: 5px;
+    font-size: 27px;
+}
+.name{
+    width: 30%;
+}
+.option{
+    width: 65%;
+    text-align: right;
+}
+.name h4,p{
+    margin: 0px;
+}
+.icons{
+    padding: 15px;
+    display: flex;
+}
+.left_icons{
+    float: left;
+    width: 50%;
+}
+.left_icons .fa, .right_icons .fa{
+    font-size: 27px;
+    font-weight: bold;
+}
+.right_icons{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.likes,.description{
+    padding: 10px;
+}
+.likes p,.description p{
+    font-size: 15px;
+}
